@@ -1,0 +1,19 @@
+{
+    "mysql": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "password": "123456",
+        "database": "crm"
+    },
+
+    "jwt": {
+        "secret": "crm_secret",
+        "expire": 86400
+    },
+
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379
+    }
+}
